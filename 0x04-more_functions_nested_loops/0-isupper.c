@@ -8,7 +8,7 @@
  *  0 otherwise.
  */
 
-int isUpperCase(char c)
+int _isupper(int c)
 {
     if (c >= 'A' && c <= 'Z') {
         return 1; 
